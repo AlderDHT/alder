@@ -31,7 +31,7 @@ if SETUP_DIRNAME != '':
 
 SETUP_DIRNAME = os.path.abspath(SETUP_DIRNAME)
 
-ALDER_METADATA = os.path.join(SETUP_DIRNAME, 'raet', '__metadata__.py')
+ALDER_METADATA = os.path.join(SETUP_DIRNAME, 'alder', '__metadata__.py')
 
 # Load the metadata using exec() in order not to trigger alder.__init__ import
 exec(compile(open(ALDER_METADATA).read(), ALDER_METADATA, 'exec'))
