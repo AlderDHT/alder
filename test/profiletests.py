@@ -9,10 +9,10 @@ import cProfile
 import pstats
 import StringIO
 
-SORBIC_ROOT = os.path.abspath(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
+ALDER_ROOT = os.path.abspath(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
 UNIT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), 'unit'))
 
-sys.path.insert(0, SORBIC_ROOT)
+sys.path.insert(0, ALDER_ROOT)
 
 
 def run_suite(path=UNIT_ROOT):
